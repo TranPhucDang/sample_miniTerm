@@ -1,5 +1,6 @@
 ﻿using Microsoft.Win32.SafeHandles;
 using System;
+using System.Diagnostics;
 using System.IO;
 using static MiniTerm.NativeApi;
 
@@ -21,6 +22,7 @@ namespace MiniTerm
             {
                 throw new InvalidOperationException("Could not enable virtual terminal processing");
             }
+            
         }
 
         public static void CopyInputToPipe(SafeFileHandle inputWriteSide)
@@ -38,7 +40,7 @@ namespace MiniTerm
                     {
                         break;
                     }
-
+                    Debug.Print(input.ToString());
                     writer.WriteLine(input);
                 }
             }
