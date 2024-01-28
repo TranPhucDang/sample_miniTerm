@@ -1,0 +1,7 @@
+C:\Users\dangtran\Documents\MiniTerm\MiniTerm\bin\ARM64\Debug\MiniPty.exe.config
+C:\Users\dangtran\Documents\MiniTerm\MiniTerm\bin\ARM64\Debug\MiniPty.exe
+C:\Users\dangtran\Documents\MiniTerm\MiniTerm\bin\ARM64\Debug\MiniPty.pdb
+C:\Users\dangtran\Documents\MiniTerm\MiniTerm\obj\ARM64\Debug\MiniTerm.csproj.AssemblyReference.cache
+C:\Users\dangtran\Documents\MiniTerm\MiniTerm\obj\ARM64\Debug\MiniTerm.csproj.CoreCompileInputs.cache
+C:\Users\dangtran\Documents\MiniTerm\MiniTerm\obj\ARM64\Debug\MiniPty.exe
+C:\Users\dangtran\Documents\MiniTerm\MiniTerm\obj\ARM64\Debug\MiniPty.pdb
