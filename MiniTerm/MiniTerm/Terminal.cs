@@ -40,16 +40,13 @@ namespace MiniTerm
 
                 while (true)
                 {   
-                    if (canInput)
+                    string input = Console.ReadLine();
+                    if (input == "exit")
                     {
-                        string input = Console.ReadLine();
-                        if (input == "exit")
-                        {
-                            break;
-                        }
-
-                        writer.WriteLine(input);
+                        break;
                     }
+
+                    writer.WriteLine(input);
                     
                 }
             }
